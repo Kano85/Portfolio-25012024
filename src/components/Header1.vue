@@ -1,0 +1,96 @@
+<template>
+  <div
+    class="self-stretch flex flex-row items-center justify-between gap-[1.25rem] max-w-full text-left text-[3.13rem] text-white font-roboto-mono mq1050:flex-wrap"
+    data-scroll-to="headerContainer"
+  >
+    <nav
+      class="m-0 w-[28.31rem] flex flex-row items-center justify-start py-[1.25rem] px-[0rem] box-border gap-[3rem] max-w-full text-left text-[1rem] text-white font-roboto-mono mq450:gap-[1.5rem] mq750:flex-wrap"
+      :style="frameWBSArrowBackStyle"
+    >
+      <div
+        class="w-[5.13rem] flex flex-row items-start justify-start gap-[0.75rem]"
+      >
+        <img
+          class="h-[1.5rem] w-[1.5rem] relative object-contain min-h-[1.5rem] cursor-pointer"
+          loading="eager"
+          alt=""
+          src="/wbs-arrow@2x.png"
+          @click="onWBSArrowIconClick"
+        />
+        <div class="flex-1 relative font-medium">Back</div>
+      </div>
+      <div
+        class="flex flex-row items-start justify-end gap-[0.75rem]"
+        :style="frameWBSArrowTrainspotStyle"
+      >
+        <img
+          class="h-[1.5rem] w-[1.5rem] relative min-h-[1.5rem] cursor-pointer"
+          loading="eager"
+          alt=""
+          src="/wbs-arrow-1.svg"
+          @click="onWBSArrowIcon1Click"
+        />
+        <div class="relative font-medium">{{trainspot}}</div>
+      </div>
+      <div
+        class="flex flex-row items-start justify-end gap-[0.75rem] cursor-pointer"
+        @click="onMainFrameContainerClick"
+        :style="kursplanningFrameStyle"
+      >
+        <div class="relative font-medium">{{kursplannung}}</div>
+        <img
+          class="h-[1.5rem] w-[1.5rem] relative min-h-[1.5rem]"
+          loading="eager"
+          alt=""
+          src="/wbs-arrow-2.svg"
+        />
+      </div>
+    </nav>
+    <h1
+      class="m-0 h-[4.13rem] relative text-inherit uppercase font-bold font-inherit inline-block max-w-full mq1050:text-[2.5rem] mq450:text-[1.88rem]"
+    >
+      {{kurskonfigurator}}
+    </h1>
+  </div>
+</template>
+<script>
+  import { defineComponent } from "vue";
+
+  export default defineComponent({
+    name: "Header1",
+    props: {
+      trainspot: { type: String },
+      kursplannung: { type: String },
+      kurskonfigurator: { type: String },
+      frameWBSArrowTrainspotWidth: {
+        type: [Object, Array, String, Number, Boolean],
+      },
+      wBSArrowIconFlex: { type: String },
+      wBSArrowIconMinWidth: { type: [Object, Array, String, Number, Boolean] },
+      kursplannungFlex: { type: String },
+      kursplannungMinWidth: { type: [Object, Array, String, Number, Boolean] },
+      onWBSArrowIconClick: { type: Function },
+      onWBSArrowIcon1Click: { type: Function },
+      onMainFrameContainerClick: { type: Function },
+    },
+    computed: {
+      frameWBSArrowBackStyle() {
+        return {
+          width: this.frameWBSArrowTrainspotWidth,
+        };
+      },
+      frameWBSArrowTrainspotStyle() {
+        return {
+          flex: this.wBSArrowIconFlex,
+          minWidth: this.wBSArrowIconMinWidth,
+        };
+      },
+      kursplanningFrameStyle() {
+        return {
+          flex: this.kursplannungFlex,
+          minWidth: this.kursplannungMinWidth,
+        };
+      },
+    },
+  });
+</script>
