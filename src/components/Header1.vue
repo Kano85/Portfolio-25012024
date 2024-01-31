@@ -4,8 +4,8 @@
     data-scroll-to="headerContainer"
   >
     <nav
-      class="m-0 w-[28.31rem] flex flex-row items-center justify-start py-[1.25rem] px-[0rem] box-border gap-[3rem] max-w-full text-left text-[1rem] text-white font-roboto-mono mq450:gap-[1.5rem] mq750:flex-wrap"
-      :style="frameWBSArrowBackStyle"
+      class="m-0 w-[28.31rem] flex flex-row items-center justify-start py-[1.25rem] px-[0rem] box-border gap-[3rem] max-w-full whitespace-nowrap text-left text-[1rem] text-white font-roboto-mono mq450:gap-[1.5rem] mq750:flex-wrap"
+      :style="frameNavStyle"
     >
       <div
         class="w-[5.13rem] flex flex-row items-start justify-start gap-[0.75rem]"
@@ -21,7 +21,7 @@
       </div>
       <div
         class="flex flex-row items-start justify-end gap-[0.75rem]"
-        :style="frameWBSArrowTrainspotStyle"
+        :style="fRAMEStyle"
       >
         <img
           class="h-[1.5rem] w-[1.5rem] relative min-h-[1.5rem] cursor-pointer"
@@ -34,8 +34,8 @@
       </div>
       <div
         class="flex flex-row items-start justify-end gap-[0.75rem] cursor-pointer"
-        @click="onMainFrameContainerClick"
-        :style="kursplanningFrameStyle"
+        @click="onFrameContainerClick"
+        :style="frameDivStyle"
       >
         <div class="relative font-medium">{{kursplannung}}</div>
         <img
@@ -62,30 +62,28 @@
       trainspot: { type: String },
       kursplannung: { type: String },
       kurskonfigurator: { type: String },
-      frameWBSArrowTrainspotWidth: {
-        type: [Object, Array, String, Number, Boolean],
-      },
+      fRAMEWidth: { type: [Object, Array, String, Number, Boolean] },
       wBSArrowIconFlex: { type: String },
       wBSArrowIconMinWidth: { type: [Object, Array, String, Number, Boolean] },
       kursplannungFlex: { type: String },
       kursplannungMinWidth: { type: [Object, Array, String, Number, Boolean] },
       onWBSArrowIconClick: { type: Function },
       onWBSArrowIcon1Click: { type: Function },
-      onMainFrameContainerClick: { type: Function },
+      onFrameContainerClick: { type: Function },
     },
     computed: {
-      frameWBSArrowBackStyle() {
+      frameNavStyle() {
         return {
-          width: this.frameWBSArrowTrainspotWidth,
+          width: this.fRAMEWidth,
         };
       },
-      frameWBSArrowTrainspotStyle() {
+      fRAMEStyle() {
         return {
           flex: this.wBSArrowIconFlex,
           minWidth: this.wBSArrowIconMinWidth,
         };
       },
-      kursplanningFrameStyle() {
+      frameDivStyle() {
         return {
           flex: this.kursplannungFlex,
           minWidth: this.kursplannungMinWidth,

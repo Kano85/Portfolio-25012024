@@ -19,11 +19,15 @@
         <div class="relative font-medium">DE|EN|ES|CAT</div>
       </div>
       <div
-        class="w-[75rem] h-[2.63rem] relative font-medium inline-block max-w-full"
+        class="w-[75rem] h-[5.25rem] relative font-medium inline-block max-w-full"
       >
-        Experience the difference that a user-centric design mindset, a custom
-        design system, and coding finesse in diverse frameworks can make in your
-        projects.
+        "Enhance your project's UX/UI with a designer committed to a “User
+        Center Design” and a strong design process. I excel at creating
+        user-friendly designs that elevate user engagement. With my experience
+        in collaborating effectively with management, developers, and
+        stakeholders, coupled with my web development expertise in Vue.js, I am
+        equipped to streamline the onboarding process for any project,
+        regardless of complexity."
       </div>
     </section>
     <MyRecentWork />

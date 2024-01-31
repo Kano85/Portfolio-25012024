@@ -8,7 +8,7 @@
     >
       <div
         class="w-[5.13rem] flex flex-row items-start justify-start gap-[0.75rem] cursor-pointer"
-        @click="onFrameContainerClick"
+        @click="onArrowInstanceContainerClick"
       >
         <img
           class="h-[1.5rem] w-[1.5rem] relative object-contain min-h-[1.5rem]"
@@ -42,7 +42,7 @@
   export default defineComponent({
     name: "Header2",
     methods: {
-      onFrameContainerClick() {
+      onArrowInstanceContainerClick() {
         this.$router.push("/landingpage25012024");
       },
       onWBSArrowIcon1Click() {

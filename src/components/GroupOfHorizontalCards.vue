@@ -17,7 +17,7 @@
         class="self-stretch flex flex-row flex-wrap items-center justify-between gap-[1.25rem]"
       >
         <b class="relative">{{trainspot}}</b>
-        <div class="relative">{{uIUXFrames}}</div>
+        <div class="relative">{{uXUILabel}}</div>
       </div>
     </div>
     <div
@@ -34,7 +34,7 @@
         class="self-stretch flex flex-row flex-wrap items-center justify-between gap-[1.25rem]"
       >
         <b class="relative">{{kurskonfigurator}}</b>
-        <div class="relative">{{uIArtDirection}}</div>
+        <div class="relative">{{uIArtDirectionText}}</div>
       </div>
     </div>
   </div>
@@ -47,10 +47,10 @@
     props: {
       frame5891: { type: String },
       trainspot: { type: String },
-      uIUXFrames: { type: String },
+      uXUILabel: { type: String },
       frame5893: { type: String },
       kurskonfigurator: { type: String },
-      uIArtDirection: { type: String },
+      uIArtDirectionText: { type: String },
       propHeight: { type: [Object, Array, String, Number, Boolean] },
       propHeight1: { type: [Object, Array, String, Number, Boolean] },
       onGalleryCardContainerClick: { type: Function },

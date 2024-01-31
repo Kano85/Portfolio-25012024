@@ -36,28 +36,28 @@
           </b>
         </div>
       </div>
-      <div
-        class="w-[16.56rem] flex flex-row flex-wrap items-start justify-between py-[0.63rem] px-[0rem] box-border gap-[1.25rem] text-[1rem]"
+      <nav
+        class="m-0 h-[2.56rem] w-[16.56rem] relative text-left text-[1rem] text-primary-main-1 font-roboto-mono"
       >
         <div
-          class="flex-1 relative font-medium cursor-pointer"
+          class="absolute top-[0.63rem] left-[0rem] font-medium cursor-pointer"
           :onClick="onProfileTextClick"
         >
           Profile
         </div>
         <div
-          class="relative font-medium cursor-pointer"
+          class="absolute top-[0.63rem] left-[6.75rem] font-medium cursor-pointer"
           :onClick="onWorksTextClick"
         >
           Works
         </div>
         <div
-          class="flex-1 relative font-medium cursor-pointer"
+          class="absolute top-[0.63rem] left-[12.31rem] font-medium cursor-pointer"
           :onClick="onContactTextClick"
         >
           Contact
         </div>
-      </div>
+      </nav>
     </div>
   </section>
 </template>
