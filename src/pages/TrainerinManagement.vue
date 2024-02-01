@@ -35,7 +35,7 @@
           />
           <div class="self-stretch h-[76.5rem] relative inline-block">
             <p class="m-0">
-              <b>Tool Overview </b>
+              <b>Tool Overview</b>
             </p>
             <p class="m-0">
               <b>Purpose: </b>
@@ -124,7 +124,7 @@
             </p>
             <p class="m-0">
               <span class="font-roboto-mono">&nbsp;</span>
-              <b>UXUI Context </b>
+              <b>UXUI Context</b>
             </p>
             <p class="m-0">
               As a UX/UI Designer, my role in the "Trainer Management" project
@@ -132,7 +132,7 @@
               on understanding user feedback about the previous product version
               and identifying essential functionalities. We used the Design
               Thinking Process and Human-Centered Design approaches,
-              supplemented by user interviews, to gather these insights. 
+              supplemented by user interviews, to gather these insights.
             </p>
             <p class="m-0">
               The project's primary goal was to redesign and integrate the
@@ -140,13 +140,13 @@
               feedback and needs throughout this process. To better understand
               how different users interacted with the app, we developed User
               Journeys, highlighting various roles, competencies, and
-              interactions within the tool. 
+              interactions within the tool.
             </p>
             <p class="m-0">
               During the design phase, I contributed to defining user roles and
               states within the application. This included detailing access
               permissions and role interactions to ensure clear and effective
-              user flow. 
+              user flow.
             </p>
             <p class="m-0">
               The development phase involved collaboration with Product Owners,
@@ -155,7 +155,7 @@
               implementation. Part of this process included integrating new
               components from our previously developed design library and
               localizing the application into multiple languages to broaden its
-              accessibility. 
+              accessibility.
             </p>
             <p class="m-0">
               In summary, this project was an exercise in balancing user needs

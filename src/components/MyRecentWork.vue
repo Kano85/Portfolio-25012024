@@ -8,56 +8,88 @@
     >
       My recent work
     </h1>
+    <!-- Group 1 -->
     <GroupOfHorizontalCards
-      frame5891="/frame-589-1@2x.png"
-      trainspot="Trainspot"
-      uXUILabel="2023-2024"
-      frame5893="/frame-5893@2x.png"
-      kurskonfigurator="Kurskonfigurator"
-      uIArtDirectionText="2022"
-      propHeight="28.13rem"
-      propHeight1="28.13rem"
-      :onGalleryCardContainerClick="onGalleryCardContainerClick"
-      :onGalleryCardContainer1Click="onGalleryCardContainer1Click"
-    /><GroupOfHorizontalCards
-      frame5891="/gallery-card@2x.png"
-      trainspot="Design System"
-      uXUILabel="UIUX, 2020-2023"
-      frame5893="/frame-590@2x.png"
-      kurskonfigurator="Kurskplannung"
-      uIArtDirectionText="2021-2022"
-      propHeight="27.71rem"
-      propHeight1="27.71rem"
-      :onGalleryCardContainerClick="onGalleryCardContainerClick"
-      :onGalleryCardContainer1Click="onGalleryCardContainer1Click"
-    /><GroupOfHorizontalCards
-      frame5891="/frame-8551@2x.png"
-      trainspot="Trainer:in Management"
-      uXUILabel="2020-2021"
-      frame5893="/frame-10000017711@2x.png"
-      kurskonfigurator="Kugu Dashboard"
-      uIArtDirectionText="UI, Art drection"
-      propHeight="28.13rem"
-      propHeight1="28.13rem"
-      :onGalleryCardContainerClick="onGalleryCardContainerClick"
-      :onGalleryCardContainer1Click="onGalleryCardContainer1Click"
+      :cardData="cardsGroup1"
+      @cardClick="onCardClick"
+    />
+    <!-- Group 2 -->
+    <GroupOfHorizontalCards
+      :cardData="cardsGroup2"
+      @cardClick="onCardClick"
+    />
+    <!-- Group 3 -->
+    <GroupOfHorizontalCards
+      :cardData="cardsGroup3"
+      @cardClick="onCardClick"
     />
   </section>
 </template>
-<script>
-  import { defineComponent } from "vue";
-  import GroupOfHorizontalCards from "./GroupOfHorizontalCards.vue";
 
-  export default defineComponent({
-    name: "MyRecentWork",
-    components: { GroupOfHorizontalCards },
-    methods: {
-      onGalleryCardContainerClick() {
-        this.$router.push("/trainspot25012024");
-      },
-      onGalleryCardContainer1Click() {
-        this.$router.push("/kurskonfigurator25012024");
-      },
-    },
-  });
+<script>
+import { defineComponent } from "vue";
+import GroupOfHorizontalCards from "./GroupOfHorizontalCards.vue";
+
+export default defineComponent({
+  name: "MyRecentWork",
+  components: { GroupOfHorizontalCards },
+  data() {
+    return {
+      cardsGroup1: [
+        // Assuming each group has similar structure, adjust accordingly
+        {
+          image: "/frame-589-1@2x.png",
+          title: "Trainspot",
+          label: "2023-2024",
+          url: "/trainspot25012024",
+          propHeight: "28.13rem"
+        },
+        {
+          image: "/frame-5893@2x.png",
+          title: "Kurskonfigurator",
+          label: "2022",
+          url: "/kurskonfigurator25012024",
+          propHeight: "28.13rem"
+        }
+      ],
+      cardsGroup2: [
+        {
+          image: "/gallery-card@2x.png",
+          title: "Design System",
+          label: "UIUX, 2020-2023",
+          url: "/designsystem25012024",
+          propHeight: "28.13rem"
+        },
+        {
+          image: "/frame-590@2x.png",
+          title: "Kursplannung",
+          label: "2021-2022",
+          url: "/kursplannung25012024",
+          propHeight: "28.13rem"
+        }
+      ],
+      cardsGroup3: [
+        {
+          image: "/frame-855@2x.png",
+          title: "Trainer:in Management",
+          label: "2020-2021",
+          url: "/trainerinmanagement25012024",
+          propHeight: "28.13rem"
+        },
+        {
+          image: "/frame-10000017711@2x.png",
+          title: "Kugu Dashboard",
+          label: "UI, Art Direction",
+          url: "/kuguDashboard25012024",
+          propHeight: "28.13rem"
+        }
+      ],
+    };
+  },
+  methods: {
+    onCardClick(url) {
+      this.$router.push(url);
+    }
+  }
+});
 </script>

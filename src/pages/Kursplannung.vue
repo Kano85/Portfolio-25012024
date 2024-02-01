@@ -66,11 +66,11 @@
           </div>
           <div class="self-stretch relative text-[0.88rem] text-left">
             <p class="m-0">
-              <b class="font-roboto-mono">Project Schedule Planning </b>
+              <b class="font-roboto-mono">Project Schedule Planning</b>
               <span>Transforming Course Scheduling From Excel </span>
             </p>
             <p class="m-0">
-              <b> Project Overview</b>
+              <b>Project Overview</b>
             </p>
             <p class="m-0">
               In Project KPL, my primary objective was to revolutionize the way
@@ -106,7 +106,7 @@
                   >I led the design and initial development of the Minimum
                   Viable Product (MVP) for the course planning tool. The MVP
                   aimed to gather early feedback for iterative
-                  improvements. </span
+                  improvements.</span
                 >
               </li>
               <li class="mb-[false]">
