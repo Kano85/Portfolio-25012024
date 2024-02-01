@@ -28,6 +28,8 @@
       uIArtDirectionText="2021-2022"
       propHeight="27.71rem"
       propHeight1="27.71rem"
+      :onGalleryCardContainerClick="onGalleryCardContainerClick"
+      :onGalleryCardContainer1Click="onGalleryCardContainer1Click"
     /><GroupOfHorizontalCards
       frame5891="/frame-8551@2x.png"
       trainspot="Trainer:in Management"
@@ -37,6 +39,8 @@
       uIArtDirectionText="UI, Art drection"
       propHeight="28.13rem"
       propHeight1="28.13rem"
+      :onGalleryCardContainerClick="onGalleryCardContainerClick"
+      :onGalleryCardContainer1Click="onGalleryCardContainer1Click"
     />
   </section>
 </template>

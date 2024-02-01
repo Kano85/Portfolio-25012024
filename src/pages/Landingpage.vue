@@ -1,35 +1,18 @@
 <template>
-  <div
-    class="w-full relative overflow-hidden flex flex-col items-start justify-start pt-[0rem] px-[0rem] pb-[0.06rem] box-border tracking-[normal]"
-  >
+  <div class="w-full overflow-hidden flex flex-col items-start pt-0 pb-0.5 box-border tracking-normal">
     <Header3 />
-    <section
-      class="self-stretch bg-white overflow-hidden flex flex-col items-center justify-start p-[1.25rem] box-border gap-[1.25rem] max-w-full shrink-0 text-left text-[1rem] text-primary-main-1 font-roboto-mono"
-      data-scroll-to="about"
-    >
-      <h1
-        class="m-0 w-[75rem] h-[3.31rem] relative text-[2.5rem] uppercase font-medium font-inherit inline-block max-w-full mq450:text-[1.5rem] mq925:text-[2rem]"
-      >
-        <span>UX/UI </span>
-        <span class="text-red">Designer</span>
+    <section class="self-stretch bg-white flex flex-col items-start py-[1.25rem] px-[2.5rem] gap-[1.25rem] text-left text-[1rem] text-primary-main-1 font-roboto-mono">
+      <h1 class="text-[3.59rem] uppercase inline-block leading-none mq450:text-[2.13rem] mq925:text-[2.88rem]">
+        <span>UX/UI </span><span class="text-red">Designer</span>
       </h1>
-      <div
-        class="self-stretch flex flex-row items-start justify-start py-[0rem] px-[1.25rem]"
-      >
-        <div class="relative font-medium">DE|EN|ES|CAT</div>
+      <div class="flex justify-start">
+        <div class="font-medium">DE|EN|ES|CAT</div>
       </div>
-      <div
-        class="w-[75rem] h-[5.25rem] relative font-medium inline-block max-w-full"
-      >
-        "Enhance your project's UX/UI with a designer committed to a “User
-        Center Design” and a strong design process. I excel at creating
-        user-friendly designs that elevate user engagement. With my experience
-        in collaborating effectively with management, developers, and
-        stakeholders, coupled with my web development expertise in Vue.js, I am
-        equipped to streamline the onboarding process for any project,
-        regardless of complexity."
+      <div class="font-medium">
+        "Enhance your project's UX/UI with a designer committed to a User Center Design and a strong Design thinking process. I excel at creating user-friendly designs that elevate user engagement. With my experience in collaborating effectively with management, developers, and stakeholders, coupled with my web skills in Vue.js, I am equipped to streamline the onboarding process for any project, regardless of complexity."
       </div>
     </section>
+    
     <MyRecentWork />
     <section
       class="self-stretch bg-white overflow-hidden flex flex-col items-end justify-start py-[1.25rem] px-[2.5rem] gap-[1.25rem] text-left text-[1rem] text-primary-main-1 font-roboto-mono"
@@ -64,13 +47,11 @@
       </div>
     </section>
     <footer
-      class="self-stretch bg-primary-main-1 overflow-hidden flex flex-col items-center justify-start p-[1.25rem] box-border gap-[1.25rem] min-h-[15.81rem] max-w-full shrink-0 text-left text-[2.5rem] text-white font-roboto-mono"
-    >
-      <h1
-        class="m-0 w-[75rem] h-[3.31rem] relative text-inherit uppercase font-medium font-inherit inline-block max-w-full mq450:text-[1.5rem] mq925:text-[2rem]"
-      >
-        Empowering Your Vison with Functionality
-      </h1>
+  class="self-stretch bg-primary-main-1 overflow-hidden flex flex-col items-start justify-start p-[1.25rem] box-border gap-[1.25rem] min-h-[15.81rem] max-w-full shrink-0 text-left text-[2.5rem] text-white font-roboto-mono"
+>
+<h1 class="text-left uppercase text-[3.59rem] inline-block mq450:text-[2.13rem] mq925:text-[2rem] ml-5 font-bold">
+  Empowering Your Vision with Functionality
+</h1>
       <div
         class="self-stretch flex flex-row items-start justify-between py-[0rem] px-[1.25rem] box-border gap-[1.25rem] max-w-full text-[1rem] mq925:flex-wrap"
       >

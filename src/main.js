@@ -12,8 +12,14 @@ import Landingpage from "./pages/Landingpage.vue";
 import "./global.css";
 
 const routes = [
+  
   {
     path: "/",
+    name: "Landingpage",
+    component: Landingpage,
+  },
+  {
+    path: "/kuguDashboard25012024",
     name: "KuguDashboard",
     component: KuguDashboard,
   },
@@ -41,11 +47,6 @@ const routes = [
     path: "/trainspot25012024",
     name: "Trainspot",
     component: Trainspot,
-  },
-  {
-    path: "/landingpage25012024",
-    name: "Landingpage",
-    component: Landingpage,
   },
 ];
 
