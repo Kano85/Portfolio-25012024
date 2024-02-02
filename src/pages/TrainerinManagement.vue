@@ -18,7 +18,52 @@
     <main
       class="w-[75rem] flex flex-row items-start justify-start gap-[5rem] max-w-full text-left text-[0.88rem] text-white font-roboto-mono lg:gap-[2.5rem] mq750:gap-[1.25rem] mq1050:flex-wrap"
     >
-      <CFrame />
+    <div
+    class="flex-1 flex flex-col items-start justify-start gap-[0.63rem] min-w-[26.31rem] max-w-full text-left text-[0.88rem] text-white font-roboto-mono mq750:min-w-full"
+  >
+    <img
+      class="self-stretch h-[41.73rem] relative max-w-full overflow-hidden shrink-0 object-cover"
+      loading="eager"
+      alt=""
+      src="/quality-management@2x.png"
+    />
+    <b class="self-stretch relative">Tool Overview</b>
+    <img
+      class="self-stretch h-[33.33rem] relative max-w-full overflow-hidden shrink-0 object-cover"
+      loading="eager"
+      alt=""
+      src="/c4@2x.png"
+    />
+    <b class="self-stretch relative">Tool Overview</b>
+    <img
+      class="self-stretch h-[18.77rem] relative max-w-full overflow-hidden shrink-0 object-cover"
+      loading="eager"
+      alt=""
+      src="/frame-856@2x.png"
+    />
+    <b class="self-stretch relative">User Interview</b>
+    <img
+      class="self-stretch h-[19.25rem] relative max-w-full overflow-hidden shrink-0 object-cover"
+      loading="eager"
+      alt=""
+      src="/frame-855@2x.png"
+    />
+    <b class="self-stretch relative">User Interview</b>
+    <img
+      class="self-stretch h-[22.89rem] relative max-w-full overflow-hidden shrink-0 object-cover"
+      loading="eager"
+      alt=""
+      src="/screenshot-20240124-at-2339-1@2x.png"
+    />
+    <b class="self-stretch relative">User Journey</b>
+    <img
+      class="self-stretch h-[21.16rem] relative max-w-full overflow-hidden shrink-0 object-cover"
+      loading="eager"
+      alt=""
+      src="/screenshot-20240124-at-2331-1@2x.png"
+    />
+    <b class="self-stretch relative">Example Tool Documentation “User Roles”</b>
+  </div>
       <div
         class="w-[29.5rem] flex flex-col items-start justify-start pt-[1.25rem] px-[0rem] pb-[0rem] box-border min-w-[29.5rem] max-w-full mq750:min-w-full mq1050:flex-1"
       >
@@ -205,26 +250,28 @@
 <script>
   import { defineComponent } from "vue";
   import Header1 from "../components/Header1.vue";
-  import CFrame from "../components/CFrame.vue";
+  // CFrame import is removed since its content is now directly included in the template.
   import ArrowVector from "../components/ArrowVector.vue";
 
   export default defineComponent({
     name: "TrainerinManagement",
-    components: { Header1, CFrame, ArrowVector },
+    components: {
+      Header1,
+      // CFrame is no longer listed here as it's integrated into the template directly.
+      ArrowVector
+    },
     methods: {
       onWBSArrowIconClick() {
-        this.$router.push("/landingpage25012024");
+        this.$router.push("/");
       },
       onWBSArrowIcon1Click() {
         this.$router.push("/designsystem25012024");
       },
       onFrameFrameContainerClick() {
-        this.$router.push("/");
+        this.$router.push("/kuguDashboard25012024");
       },
       onGroupClick() {
-        const anchor = document.querySelector(
-          "[data-scroll-to='headerContainer']"
-        );
+        const anchor = document.querySelector("[data-scroll-to='headerContainer']");
         if (anchor) {
           anchor.scrollIntoView({ block: "start", behavior: "smooth" });
         }

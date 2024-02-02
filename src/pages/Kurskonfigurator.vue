@@ -106,7 +106,7 @@
     components: { Header1, ListFrame },
     methods: {
       onWBSArrowIconClick() {
-        this.$router.push("/landingpage25012024");
+        this.$router.push("/");
       },
       onWBSArrowIcon1Click() {
         this.$router.push("/trainspot25012024");
