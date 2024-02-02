@@ -226,10 +226,10 @@
     components: { Header1 },
     methods: {
       onWBSArrowIconClick() {
-        this.$router.push("/kursplannung25012024");
+        this.$router.push("/");
       },
       onWBSArrowIcon1Click() {
-        this.$router.push("/trainspot25012024");
+        this.$router.push("/kursplannung25012024");
       },
       onFrameContainer2Click() {
         this.$router.push("/trainerinmanagement25012024");

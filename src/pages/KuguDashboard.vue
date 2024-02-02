@@ -2,7 +2,7 @@
   <div
     class="w-full relative bg-primary-main-1 overflow-hidden flex flex-col items-center justify-start pt-[3.75rem] px-[1.25rem] pb-[3.69rem] box-border gap-[0.63rem] tracking-[normal] text-left text-[1rem] text-white font-roboto-mono"
   >
-    <header />
+    <Header />
     <main
       class="w-[75rem] flex flex-row items-start justify-start gap-[5rem] max-w-full text-right text-[1rem] text-white font-roboto-mono lg:gap-[2.5rem] mq750:gap-[1.25rem] mq1050:flex-wrap"
     >
@@ -138,10 +138,11 @@
 <script>
   import { defineComponent } from "vue";
   import Header from "../components/Header.vue";
+import Header3 from "../components/Header3.vue";
 
   export default defineComponent({
     name: "KuguDashboard",
-    components: { Header },
+    components: { Header, Header3 },
     methods: {
       onGroup2Click() {
         const anchor = document.querySelector(

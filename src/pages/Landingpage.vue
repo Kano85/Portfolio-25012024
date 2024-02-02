@@ -6,7 +6,7 @@
         <span>UX/UI </span><span class="text-red">Designer</span>
       </h1>
       <div class="flex justify-start">
-        <div class="font-medium">DE|EN|ES|CAT</div>
+        <div class="font-medium">DE|EN|ES|VUEJS</div>
       </div>
       <div class="font-medium">
         "Enhance your project's UX/UI with a designer committed to a User Center Design and a strong Design thinking process. I excel at creating user-friendly designs that elevate user engagement. With my experience in collaborating effectively with management, developers, and stakeholders, coupled with my web skills in Vue.js, I am equipped to streamline the onboarding process for any project, regardless of complexity."

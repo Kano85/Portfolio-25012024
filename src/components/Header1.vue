@@ -8,32 +8,32 @@
       :style="frameNavStyle"
     >
       <div
-        class="w-[5.13rem] flex flex-row items-start justify-start gap-[0.75rem]"
+        class="w-[5.13rem] flex flex-row items-center justify-start gap-[0.75rem] cursor-pointer"
+        @click="onWBSArrowIconClick"
       >
         <img
-          class="h-[1.5rem] w-[1.5rem] relative object-contain min-h-[1.5rem] cursor-pointer"
+          class="h-[1.5rem] w-[1.5rem] relative object-contain min-h-[1.5rem]"
           loading="eager"
           alt=""
           src="/wbs-arrow@2x.png"
-          @click="onWBSArrowIconClick"
         />
         <div class="flex-1 relative font-medium">Back</div>
       </div>
       <div
-        class="flex flex-row items-start justify-end gap-[0.75rem]"
+        class="flex flex-row items-center justify-start gap-[0.75rem] cursor-pointer"
+        @click="onWBSArrowIcon1Click"
         :style="fRAMEStyle"
       >
         <img
-          class="h-[1.5rem] w-[1.5rem] relative min-h-[1.5rem] cursor-pointer"
+          class="h-[1.5rem] w-[1.5rem] relative min-h-[1.5rem]"
           loading="eager"
           alt=""
           src="/wbs-arrow-1.svg"
-          @click="onWBSArrowIcon1Click"
         />
         <div class="relative font-medium">{{trainspot}}</div>
       </div>
       <div
-        class="flex flex-row items-start justify-end gap-[0.75rem] cursor-pointer"
+        class="flex flex-row items-center justify-start gap-[0.75rem] cursor-pointer"
         @click="onFrameContainerClick"
         :style="frameDivStyle"
       >

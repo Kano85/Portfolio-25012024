@@ -7,24 +7,27 @@
       class="flex flex-row items-center justify-start py-[1.25rem] px-[0rem] box-border gap-[3rem] max-w-full mq450:flex-wrap mq450:gap-[1.5rem]"
     >
       <div
-        class="w-[5.13rem] flex flex-row items-start justify-start gap-[0.75rem]"
+        class="w-[5.13rem] flex flex-row items-start justify-start gap-[0.75rem] cursor-pointer"
+        @click="onWBSArrowIconClick"
       >
         <img
-          class="h-[1.5rem] w-[1.5rem] relative object-contain min-h-[1.5rem] cursor-pointer"
+          class="h-[1.5rem] w-[1.5rem] relative object-contain min-h-[1.5rem]"
           loading="eager"
           alt=""
           src="/wbs-arrow@2x.png"
-          @click="onWBSArrowIconClick"
         />
         <div class="flex-1 relative font-medium">Back</div>
       </div>
-      <div class="flex flex-row items-start justify-end gap-[0.75rem]">
+      <!-- Updated Trainer:in Management button -->
+      <div
+        class="flex flex-row items-center justify-end gap-[0.75rem] cursor-pointer"
+        @click="onWBSArrowIcon1Click"
+      >
         <img
-          class="h-[1.5rem] w-[1.5rem] relative min-h-[1.5rem] cursor-pointer"
+          class="h-[1.5rem] w-[1.5rem] relative min-h-[1.5rem]"
           loading="eager"
           alt=""
           src="/wbs-arrow-1.svg"
-          @click="onWBSArrowIcon1Click"
         />
         <div class="relative font-medium">Trainer:in Management</div>
       </div>
@@ -36,6 +39,7 @@
     </h1>
   </div>
 </template>
+
 <script>
   import { defineComponent } from "vue";
 
@@ -43,7 +47,7 @@
     name: "Header",
     methods: {
       onWBSArrowIconClick() {
-        this.$router.push("/landingpage25012024");
+        this.$router.push("/");
       },
       onWBSArrowIcon1Click() {
         this.$router.push("/trainerinmanagement25012024");

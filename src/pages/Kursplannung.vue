@@ -218,10 +218,10 @@
     components: { Header1, ToolLayoutExamples },
     methods: {
       onWBSArrowIconClick() {
-        this.$router.push("/landingpage25012024");
+        this.$router.push("/");
       },
       onWBSArrowIcon1Click() {
-        this.$router.push("/trainspot25012024");
+        this.$router.push("/kurskonfigurator25012024");
       },
       onKursPlanningTextClick() {
         this.$router.push("/designsystem25012024");
