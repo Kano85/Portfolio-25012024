@@ -26,7 +26,7 @@
           class="self-stretch flex flex-row items-center justify-center max-w-full text-[5.63rem]"
         >
           <b
-            class="h-[14.88rem] flex-1 relative uppercase inline-block max-w-full mq450:text-[1.69rem] mq925:text-[2.81rem]"
+            class="h-[14.88rem] flex-1 relative uppercase inline-block max-w-full mq450:text-[4.75rem] mq925:text-[4.75rem]"
           >
             <p class="m-0">Harold</p>
             <p class="m-0">
@@ -36,28 +36,15 @@
           </b>
         </div>
       </div>
-      <nav
-        class="m-0 h-[2.56rem] w-[16.56rem] relative text-left text-[1rem] text-primary-main-1 font-roboto-mono"
-      >
-        <div
-          class="absolute top-[0.63rem] left-[0rem] font-medium cursor-pointer"
-          :onClick="onProfileTextClick"
-        >
-          Profile
-        </div>
-        <div
-          class="absolute top-[0.63rem] left-[6.75rem] font-medium cursor-pointer"
-          :onClick="onWorksTextClick"
-        >
-          Works
-        </div>
-        <div
-          class="absolute top-[0.63rem] left-[12.31rem] font-medium cursor-pointer"
-          :onClick="onContactTextClick"
-        >
-          Contact
-        </div>
-      </nav>
+     <nav class="m-0 h-[2.56rem] w-[12.56rem] relative text-left text-[1rem] text-primary-main-1 font-roboto-mono">
+  <!-- Conditional rendering or classes might be required for different screen sizes -->
+  <div class="absolute top-[0.63rem] left-[2.75rem] md:left-[6.75rem] font-medium cursor-pointer" :onClick="onWorksTextClick">
+    Works
+  </div>
+  <div class="absolute top-[0.63rem] left-[8.31rem] md:left-[12.31rem] font-medium cursor-pointer" :onClick="onContactTextClick">
+    Contact
+  </div>
+</nav>
     </div>
   </section>
 </template>

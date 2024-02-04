@@ -1,4 +1,5 @@
 <template>
+    <!-- Start general div -->
   <div
     class="w-full relative bg-primary-main-1 overflow-hidden flex flex-col items-center justify-start py-[3.75rem] px-[1.25rem] box-border gap-[0.63rem] tracking-[normal] text-left text-[1rem] text-white font-roboto-mono"
   >
@@ -212,6 +213,7 @@
         </div>
       </div>
     </main>
+    <!-- Begin Footer  -->
     <div
       class="self-stretch flex flex-row items-center justify-between gap-[1.25rem] max-w-full mq750:flex-wrap"
     >
@@ -245,7 +247,9 @@
         :onClick="onGroupClick"
       />
     </div>
+    <!-- End Footer -->
   </div>
+  <!-- Endd general div -->
 </template>
 <script>
   import { defineComponent } from "vue";
