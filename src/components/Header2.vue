@@ -5,7 +5,6 @@
     <div
       class="flex flex-row items-center justify-start py-[1.25rem] px-[0rem] gap-[3rem] mq450:flex-wrap mq450:gap-[1.5rem]">
       <!-- Back button remains  -->
-      <!-- Back button remains  -->
       <div class="w-[5.13rem] flex flex-row items-center justify-start gap-[0.75rem] cursor-pointer"
         @click="onArrowInstanceContainerClick">
         <img class="h-[1.5rem] w-[1.5rem] object-contain" loading="eager" alt="" src="/wbs-arrow@2x.png" />

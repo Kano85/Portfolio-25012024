@@ -77,9 +77,30 @@
       <div
         class="w-[34.5rem] flex flex-col items-start justify-start pt-[1.25rem] px-[0rem] pb-[0rem] box-border min-w-[34.5rem] max-w-full text-right text-[1rem] mq1050:flex-1 mq750:min-w-full">
         <div class="self-stretch flex flex-col items-start justify-start gap-[1.88rem]">
-          <ArrowVector trainspotFrame="/frame-5861.svg" screenshot20240125At14341="/screenshot-20240125-at-1434-1@2x.png"
-            propPadding="0rem 0rem 0.06rem" propPadding1="0.06rem 0rem 0rem 0.06rem"
-            propBackgroundImage="url('/link-frame@3x.png')" />
+          <div class="self-stretch flex flex-row items-start justify-between gap-[1.25rem] mq450:flex-wrap">
+            <div class="w-[5.83rem] overflow-hidden shrink-0 flex flex-col items-start justify-start gap-[2.56rem]">
+              <img class="w-[5.21rem] h-[5.21rem] relative object-cover" loading="eager" alt="" src="/image-2@2x.png" />
+              <img class="self-stretch h-[2.79rem] relative max-w-full overflow-hidden shrink-0 object-cover"
+                loading="eager" alt="" src="/image-3@2x.png" />
+            </div>
+            <div class="h-[3.94rem] relative inline-block">
+              <p class="m-0">
+                <b class="font-roboto-mono">User story example:</b>
+              </p>
+              <p class="m-0">
+                <span>&nbsp;</span>
+              </p>
+              <p class="m-0">
+                <a class="text-[inherit]"
+                  href="https://www.figma.com/file/7tKLHo6daiwnPize08vehE/portfolio-research-Figma?type=design&node-id=0-1&mode=design"
+                  target="_blank">
+                  <span>
+                    <span class="[text-decoration:underline]">Figma link</span>
+                  </span>
+                </a>
+              </p>
+            </div>
+          </div>
           <div class="self-stretch h-[74.25rem] relative text-[0.88rem] text-left inline-block">
             <p class="m-0">
               <b>Tool Overview </b>
@@ -208,13 +229,11 @@
 <script>
 import { defineComponent } from "vue";
 import Header1 from "../components/Header1.vue";
-import ArrowVector from "../components/ArrowVector.vue";
 
 export default defineComponent({
   name: "Kurskonfigurator",
   components: {
-    Header1,
-    ArrowVector
+    Header1
   },
   methods: {
     onWBSArrowIconClick() {
