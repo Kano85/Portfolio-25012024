@@ -20,7 +20,7 @@
           alt="" src="/frame-856@2x.png" />
         <b class="self-stretch relative">User Interview</b>
         <img class="self-stretch h-[19.25rem] relative max-w-full overflow-hidden shrink-0 object-cover" loading="eager"
-          alt="" src="/frame-855@2x.png" />
+          alt="" src="/screenshot-2023-07-25-at-11.33.jpg" />
         <b class="self-stretch relative">User Interview</b>
         <img class="self-stretch h-[22.89rem] relative max-w-full overflow-hidden shrink-0 object-cover" loading="eager"
           alt="" src="/screenshot-20240124-at-2339-1@2x.png" />
@@ -29,9 +29,27 @@
           alt="" src="/screenshot-20240124-at-2331-1@2x.png" />
         <b class="self-stretch relative">Example Tool Documentation “User Roles”</b>
       </div>
+
       <div
         class="w-[29.5rem] flex flex-col items-start justify-start pt-[1.25rem] px-[0rem] pb-[0rem] box-border min-w-[29.5rem] max-w-full mq750:min-w-full mq1050:flex-1">
         <div class="self-stretch flex flex-col items-start justify-start gap-[1.88rem]">
+          <!-- Start links and labels text begining -->
+          <div class="h-[3.94rem] relative inline-block">
+            <p class="m-0">
+              <b class="font-roboto-mono">User story example:</b>
+            </p>
+            <p class="m-0">
+              <span>&nbsp;</span>
+            </p>
+            <p class="m-0">
+              <a class="text-[inherit]" href="" target="_blank">
+                <span>
+                  <span class="[text-decoration:underline]">Figma link</span>
+                </span>
+              </a>
+            </p>
+          </div>
+          <!--End links and labels text begining -->
           <div class="self-stretch h-[76.5rem] relative inline-block">
             <p class="m-0">
               <b>Tool Overview</b>
@@ -157,8 +175,7 @@
       <div class="flex flex-row items-center justify-between gap-[1.25rem]">
         <div>
           <p class="m-0 font-medium">Do you want to see more about this project?</p>
-          <a href="https://www.figma.com/file/7tKLHo6daiwnPize08vehE/portfolio-research-Figma?type=design&node-id=0-1&mode=design"
-            target="_blank" class="underline text-inherit">Figma link to the Mockups</a>
+          <a href="" target="_blank" class="underline text-inherit">Figma link to the Mockups</a>
         </div>
         <img src="/group-854.svg" alt="" class="h-[3.74rem] w-[3.74rem] cursor-pointer" @click="onGroupClick" />
       </div>

@@ -78,10 +78,11 @@
         class="w-[34.5rem] flex flex-col items-start justify-start pt-[1.25rem] px-[0rem] pb-[0rem] box-border min-w-[34.5rem] max-w-full text-right text-[1rem] mq1050:flex-1 mq750:min-w-full">
         <div class="self-stretch flex flex-col items-start justify-start gap-[1.88rem]">
           <div class="self-stretch flex flex-row items-start justify-between gap-[1.25rem] mq450:flex-wrap">
-            <div class="w-[5.83rem] overflow-hidden shrink-0 flex flex-col items-start justify-start gap-[2.56rem]">
-              <img class="w-[5.21rem] h-[5.21rem] relative object-cover" loading="eager" alt="" src="/image-2@2x.png" />
-              <img class="self-stretch h-[2.79rem] relative max-w-full overflow-hidden shrink-0 object-cover"
-                loading="eager" alt="" src="/image-3@2x.png" />
+            <div class="w-[8.2rem] overflow-hidden shrink-0 flex flex-col items-start justify-start gap-[2.56rem]">
+              <img class="w-[8.20rem] h-[2.81rem] relative object-cover" loading="eager" alt=""
+                src="/frame-5881528.png" />
+              <!-- <img class="self-stretch h-[5.79rem] relative max-w-full overflow-hidden shrink-0 object-cover"
+                loading="eager" alt="" src="/frame-5881528.png" /> -->
             </div>
             <div class="h-[3.94rem] relative inline-block">
               <p class="m-0">
@@ -91,9 +92,7 @@
                 <span>&nbsp;</span>
               </p>
               <p class="m-0">
-                <a class="text-[inherit]"
-                  href="https://www.figma.com/file/7tKLHo6daiwnPize08vehE/portfolio-research-Figma?type=design&node-id=0-1&mode=design"
-                  target="_blank">
+                <a class="text-[inherit]" href="" target="_blank">
                   <span>
                     <span class="[text-decoration:underline]">Figma link</span>
                   </span>
@@ -216,8 +215,7 @@
       <div class="flex flex-row items-center lg:items-center justify-between gap-[1.25rem] w-full">
         <div>
           <p class="m-0 font-medium">Do you want to see more about this project?</p>
-          <a href="https://www.figma.com/file/7tKLHo6daiwnPize08vehE/portfolio-research-Figma?type=design&node-id=0-1&mode=design"
-            target="_blank" class="underline text-inherit m-0">Figma link to the Mockups</a>
+          <a href="" target="_blank" class="underline text-inherit m-0">Figma link to the Mockups</a>
         </div>
         <img src="/group-854.svg" alt="" class="h-[3.74rem] w-[3.74rem] cursor-pointer" @click="onGroupClick" />
       </div>

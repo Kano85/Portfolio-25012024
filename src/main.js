@@ -1,3 +1,4 @@
+
 import { createApp } from "vue";
 import { createRouter, createWebHistory } from "vue-router";
 import App from "./App.vue";
@@ -12,7 +13,6 @@ import Landingpage from "./pages/Landingpage.vue";
 import "./global.css";
 
 const routes = [
-  
   {
     path: "/",
     name: "Landingpage",
@@ -53,6 +53,14 @@ const routes = [
 const router = createRouter({
   history: createWebHistory(),
   routes,
+  scrollBehavior(to, from, savedPosition) {
+    // Siempre desplazar al inicio de la página para todas las navegaciones de rutas
+    if (savedPosition) {
+      return savedPosition;
+    } else {
+      return { top: 0 };
+    }
+  },
 });
 
 router.beforeEach((toRoute, fromRoute, next) => {
@@ -78,4 +86,6 @@ const addMetaTag = (value) => {
 
 createApp(App).use(router).mount("#app");
 
-export default router;
+// export default router;
+// No necesitas exportar el router si no lo vas a usar fuera de este archivo
+

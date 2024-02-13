@@ -26,9 +26,8 @@
         <b class="self-stretch relative">Figma files for Design System</b>
         <div
           class="self-stretch bg-gainsboro shadow-[0px_0px_20px_rgba(0,_0,_0,_0.07)] overflow-hidden flex flex-row items-end justify-end max-w-full">
-          <div class="h-[39.88rem] w-[74.69rem] relative max-w-[184%] shrink-0">
-            <img class="absolute top-[0rem] left-[0.03rem] w-full h-full object-cover" loading="eager" alt=""
-              src="/screenshot-20240124-at-2302-1@2x.png" />
+          <div class="h-[39.88rem] w-[74.69rem] relative overflow-hidden">
+            <img class="absolute top-0 left-0 w-full h-full object-cover" src="/group-856.png" alt="" loading="eager" />
             <input
               class="[border:none] [outline:none] bg-white absolute top-[9.04rem] left-[22.23rem] w-[6.07rem] h-[1.9rem] z-[1]"
               type="text" />
@@ -43,9 +42,8 @@
         <b class="self-stretch relative">Documentation Design system</b>
         <div
           class="self-stretch h-[39.88rem] bg-gainsboro shadow-[0px_0px_20px_rgba(0,_0,_0,_0.07)] overflow-hidden shrink-0 flex flex-row items-end justify-end max-w-full">
-          <div class="h-[42.69rem] w-[77.94rem] relative max-w-[192%] shrink-0">
-            <img class="absolute top-[-0.03rem] left-[-0.02rem] w-full h-full object-cover" alt=""
-              src="/screenshot-20240124-at-2305@2x.png" />
+          <div class="h-[39.88rem] w-[74.69rem] relative overflow-hidden">
+            <img class="absolute top-0 left-0 w-full h-full object-cover" src="/group-855.png" alt="" loading="eager" />
             <div class="absolute top-[1.68rem] left-[17.49rem] bg-white w-[2.2rem] h-[2.23rem] z-[1]" />
             <input
               class="[border:none] [outline:none] bg-white absolute top-[2.79rem] left-[30.11rem] w-[9.86rem] h-[1.56rem] z-[1]"
@@ -58,9 +56,9 @@
         class="w-[29.5rem] flex flex-col items-start justify-start pt-[1.25rem] px-[0rem] pb-[0rem] box-border min-w-[29.5rem] max-w-full text-right text-[1rem] mq750:min-w-full mq1050:flex-1">
         <div class="self-stretch flex flex-col items-start justify-start gap-[1.88rem]">
           <div class="self-stretch flex flex-row items-start justify-between gap-[1.25rem] mq450:flex-wrap">
-            <div class="w-[5.83rem] overflow-hidden shrink-0 flex flex-col items-start justify-start gap-[2.56rem]">
-              <img class="self-stretch h-[2.79rem] relative max-w-full overflow-hidden shrink-0 object-cover"
-                loading="eager" alt="" src="/image-3@2x.png" />
+            <div class="w-[8.2rem] overflow-hidden shrink-0 flex flex-col items-start justify-start gap-[2.56rem]">
+              <img class="w-[8.20rem] h-[2.81rem] relative object-cover" loading="eager" alt=""
+                src="/frame-5881528.png" />
             </div>
             <div class="h-[3.94rem] relative inline-block">
               <p class="m-0">
@@ -70,9 +68,7 @@
                 <span>&nbsp;</span>
               </p>
               <p class="m-0">
-                <a class="text-[inherit]"
-                  href="https://www.figma.com/file/7tKLHo6daiwnPize08vehE/portfolio-research-Figma?type=design&node-id=0-1&mode=design"
-                  target="_blank">
+                <a class="text-[inherit]" href="" target="_blank">
                   <span>
                     <span class="[text-decoration:underline]">Figma link</span>
                   </span>
@@ -133,8 +129,7 @@
       <div class="flex flex-row items-center justify-between gap-[1.25rem]">
         <div>
           <p class="m-0 font-medium">Do you want to see more about this project?</p>
-          <a href="https://www.figma.com/file/7tKLHo6daiwnPize08vehE/portfolio-research-Figma?type=design&node-id=0-1&mode=design"
-            target="_blank" class="underline text-inherit">Figma link to the Mockups</a>
+          <a href="" target="_blank" class="underline text-inherit">Figma link to the Mockups</a>
         </div>
         <img src="/group-854.svg" alt="" class="h-[3.74rem] w-[3.74rem] cursor-pointer" @click="onGroupClick" />
       </div>

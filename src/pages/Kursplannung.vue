@@ -53,9 +53,7 @@
                 <span>&nbsp;</span>
               </p>
               <p class="m-0">
-                <a class="text-[inherit]"
-                  href="https://www.figma.com/file/7tKLHo6daiwnPize08vehE/portfolio-research-Figma?type=design&node-id=0-1&mode=design"
-                  target="_blank">
+                <a class="text-[inherit]" href="" target="_blank">
                   <span>
                     <span class="[text-decoration:underline]">Figma link</span>
                   </span>
@@ -162,8 +160,7 @@
       <div class="flex flex-row items-center justify-between gap-[1.25rem]">
         <div>
           <p class="m-0 font-medium">Do you want to see more about this project?</p>
-          <a href="https://www.figma.com/file/7tKLHo6daiwnPize08vehE/portfolio-research-Figma?type=design&node-id=0-1&mode=design"
-            target="_blank" class="underline text-inherit">Figma link to the Mockups</a>
+          <a href="" target="_blank" class="underline text-inherit">Figma link to the Mockups</a>
         </div>
         <img src="/group-854.svg" alt="" class="h-[3.74rem] w-[3.74rem] cursor-pointer" @click="onGroupClick" />
       </div>
