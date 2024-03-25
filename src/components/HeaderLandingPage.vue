@@ -62,7 +62,7 @@ export default defineComponent({
     });
 
     const imageSrc = computed(() => {
-      return isLargerScreen.value ? '/cano0040-1@2x.png' : '/public/landingphoto-20.03.png';
+      return isLargerScreen.value ? '/cano0040-1@2x.png' : '/landingphoto-20.03.png';
     });
 
     return { imageSrc, isLargerScreen };

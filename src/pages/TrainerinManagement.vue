@@ -31,7 +31,7 @@
       </div>
 
       <div
-        class="w-[29.5rem] flex flex-col items-start justify-start pt-[1.25rem] px-[0rem] pb-[0rem] box-border min-w-[29.5rem] max-w-full mq750:min-w-full mq1050:flex-1">
+        class="w-[29.5rem] flex flex-col items-start justify-start pt-[1.25rem] px-[0rem] pb-[0rem] box-border min-w-[29.5rem] max-w-full mq750:min-w-full mq1050:flex-1 ">
         <!-- Start images logos -->
         <div class="self-stretch flex flex-col items-start justify-start gap-[1.88rem]">
           <div class="self-stretch flex flex-row items-start justify-between gap-[1.25rem] mq450:flex-wrap">
@@ -57,7 +57,7 @@
               </p>
             </div>
           </div>
-          <div class="self-stretch h-[76.5rem] relative inline-block">
+          <div class="break-words relative text-[0.88rem] mb-5">
             <p class="m-0">
               <b>Tool Overview</b>
             </p>

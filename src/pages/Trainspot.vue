@@ -35,8 +35,8 @@
             class="self-stretch flex flex-col items-start justify-start pt-[0rem] px-[0rem] pb-[0rem] gap-[2.56rem] text-right mq750:gap-[1.25rem]">
             <div class="self-stretch flex flex-row items-start justify-between gap-[1.25rem] mq450:flex-wrap">
               <div class="w-[9.69rem] flex flex-col items-start justify-start gap-[2.56rem]">
-                <img class="self-stretch h-[1.56rem] relative max-w-full overflow-hidden shrink-0" loading="eager" alt=""
-                  src="/logowhite-1.svg" />
+                <img class="self-stretch h-[1.56rem] relative max-w-full overflow-hidden shrink-0" loading="eager"
+                  alt="" src="/logowhite-1.svg" />
                 <img class="w-[7.2rem] h-[1.59rem] relative" loading="eager" alt="" src="/group-8511.svg" />
               </div>
               <div class="h-[3.94rem] relative inline-block">
@@ -82,7 +82,7 @@
           </div>
           <a class="w-[26.38rem] relative [text-decoration:underline] text-[inherit] inline-block max-w-full"
             href="https://www.meinbildungsraum.de/en/" target="_blank">https://www.meinbildungsraum.de/en/</a>
-          <div class="self-stretch h-[41.63rem] relative text-[0.88rem] inline-block">
+          <div class="break-words relative text-[0.88rem] mb-20">
             <p class="m-0">
               <b class="font-roboto-mono">UXUI Design Process</b>
               <span>In the Trainspot project, I embraced the role of a UX/UI

@@ -48,11 +48,12 @@
               </p>
             </div>
           </div>
-          <div class="self-stretch h-[74.25rem] relative text-[0.88rem] text-left inline-block">
+          <div class="relative inline-block h-[74.25rem] text-[0.88rem] text-left mb-5">
             <div class="m-0">
               <p><b>In a brief yet impactful collaboration with Kugu Home, a leader in smart home and energy efficiency
                   solutions, I contributed my UX/UI design expertise to a pivotal project. Kugu Home is on a mission to
-                  revolutionize our living environments, making them more connected, efficient, and sustainable. My role,
+                  revolutionize our living environments, making them more connected, efficient, and sustainable. My
+                  role,
                   although concise in duration, was deeply focused on two main aspects:</b></p>
             </div>
             <p class="m-0">
@@ -62,7 +63,8 @@
             <div class="m-0 text-inherit pl-[1.36rem]">
               I was tasked with designing prototypes for B2B billing dashboards. The goal was to simplify and streamline
               the way businesses interact with billing information, enhancing accessibility and clarity. This effort was
-              crucial for enabling clients to manage and understand their energy costs more effectively. Despite the short
+              crucial for enabling clients to manage and understand their energy costs more effectively. Despite the
+              short
               timeframe, my work laid the groundwork for a user-friendly interface that promises to significantly aid
               businesses in the energy sector.
             </div>
@@ -72,7 +74,8 @@
             <p class="m-0"><b>UX/UI Analysis for an Energy Efficiency App</b></p>
             <div class="m-0 text-inherit pl-[1.36rem]">
               Additionally, I conducted a focused UX/UI analysis for key performance indicators (KPIs) related to a
-              submetering app aimed at energy efficiency. This analysis was key to pinpointing user interaction patterns,
+              submetering app aimed at energy efficiency. This analysis was key to pinpointing user interaction
+              patterns,
               identifying improvement opportunities, and optimizing the app's design for better usability and
               effectiveness in promoting energy management.
             </div>
@@ -82,7 +85,8 @@
             <p class="m-0"><b>VueJS Dashboard Development</b></p>
             <div class="m-0 text-inherit pl-[1.36rem]">
               The culmination of my efforts was the initiation of a desktop dashboard developed with VueJS. This task
-              allowed me to apply my design insights directly into a tangible product, creating a central hub for users to
+              allowed me to apply my design insights directly into a tangible product, creating a central hub for users
+              to
               manage their energy usage. Despite the project's brief nature, this development phase was a vital step
               towards realizing an intuitive and dynamic user interface.
             </div>

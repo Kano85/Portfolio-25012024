@@ -75,10 +75,10 @@
       <!-- End of left element just for Images-->
       <!-- Begin of right element just for Text-->
       <div
-        class="w-[34.5rem] flex flex-col items-start justify-start pt-[1.25rem] px-[0rem] pb-[0rem] box-border min-w-[34.5rem] max-w-full text-right text-[1rem] mq1050:flex-1 mq750:min-w-full">
-        <div class="self-stretch flex flex-col items-start justify-start gap-[1.88rem]">
-          <div class="self-stretch flex flex-row items-start justify-between gap-[1.25rem] mq450:flex-wrap">
-            <div class="w-[8.2rem] overflow-hidden shrink-0 flex flex-col items-start justify-start gap-[2.56rem]">
+        class="w-[34.5rem] flex flex-col items-start justify-start pt-[1.25rem] px-[0rem] pb-[0rem] box-border min-w-[34.5rem] max-w-full text-right text-[1rem] mq1050:flex-1 mq750:min-w-full break-words relative mb-5">
+        <div class="self-stretch flex flex-col items-start justify-start gap-[1.88rem] ">
+          <div class="self-stretch flex flex-row items-start justify-between gap-[1.25rem] mq450:flex-wrap ">
+            <div class="w-[8.2rem] overflow-hidden shrink-0 flex flex-col items-start justify-start gap-[2.56rem] ">
               <img class="w-[8.20rem] h-[2.81rem] relative object-cover" loading="eager" alt=""
                 src="/frame-5881528.png" />
               <!-- <img class="self-stretch h-[5.79rem] relative max-w-full overflow-hidden shrink-0 object-cover"
@@ -100,7 +100,7 @@
               </p>
             </div>
           </div>
-          <div class="self-stretch h-[74.25rem] relative text-[0.88rem] text-left inline-block">
+          <div class="break-words relative text-[0.88rem] text-left inline-block mb-5">
             <p class="m-0">
               <b>Tool Overview </b>
             </p>
