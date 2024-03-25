@@ -9,14 +9,14 @@ import Designsystem from "./pages/Designsystem.vue";
 import Kursplannung from "./pages/Kursplannung.vue";
 import Kurskonfigurator from "./pages/Kurskonfigurator.vue";
 import Trainspot from "./pages/Trainspot.vue";
-import Landingpage from "./pages/Landingpage.vue";
+import LandingPage from "./pages/LandingPage.vue";
 import "./global.css";
 
 const routes = [
   {
     path: "/",
-    name: "Landingpage",
-    component: Landingpage,
+    name: "LandingPage",
+    component: LandingPage,
   },
   {
     path: "/kuguDashboard25012024",
@@ -54,7 +54,7 @@ const router = createRouter({
   history: createWebHistory(),
   routes,
   scrollBehavior(to, from, savedPosition) {
-    // Siempre desplazar al inicio de la página para todas las navegaciones de rutas
+    // Siempre desplazar al inicio de la página para todas las navegaciones de rutas  
     if (savedPosition) {
       return savedPosition;
     } else {
@@ -86,6 +86,4 @@ const addMetaTag = (value) => {
 
 createApp(App).use(router).mount("#app");
 
-// export default router;
-// No necesitas exportar el router si no lo vas a usar fuera de este archivo
 

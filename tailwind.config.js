@@ -8,10 +8,12 @@ module.exports = {
         white: "#fff",
         gainsboro: "#e5e5e5",
         red: "#ff2c00",
+        "light-gray-custom": "#F5F4F4",
       },
       spacing: {},
       fontFamily: {
         "roboto-mono": "'Roboto Mono'",
+        'roboto-slab': ['"Roboto Slab"', 'serif'],
       },
     },
     fontSize: {
